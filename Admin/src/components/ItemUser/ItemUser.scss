@@ -1,0 +1,53 @@
+.itemUser .check{
+    width: 10%;
+}
+.itemUser .name{
+    display: flex;
+    width: 25%;
+}
+.itemUser .location{
+    width: 25%;
+}
+.itemUser .order{
+    width: 10%;
+}
+.itemUser .spent{
+    width: 20%;
+}
+.itemUser .action{
+    span{
+    font-size: 1.5rem;
+    padding-right: 20px;
+    }
+    width: 10%;
+}
+.itemUser .user__center{
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+.itemUser .img{
+    height: 42px;
+    width: 42px;
+    margin-right: 15px;
+}
+.itemUser .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.itemUser .mail{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: rgb(145, 158, 171);
+}
+.itemUser .com{
+    display: flex;
+    flex-direction: column;
+}

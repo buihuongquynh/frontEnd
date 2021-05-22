@@ -1,0 +1,26 @@
+.call .call__center{
+    padding: 12px 0;
+    display: flex;
+    border-bottom: 1px solid rgba(145, 158, 171, 0.24);
+    .item__call1{
+        width: 10%;
+    }
+    .item__call2{
+        width: 10%;
+        span{
+            padding: 1px 5px;
+            border: 1px solid #4CAF50;
+            background-color: #4CAF50;
+            border-radius: 16px;
+        }
+    }
+    .item__call3{
+        width: 30%;
+    }
+    .item__call4{
+        width: 30%;
+    }
+    .item__call5{
+        width: 20%;
+    }
+}

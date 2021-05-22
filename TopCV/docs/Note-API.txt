@@ -1,0 +1,112 @@
+
+ 
+URL: --> https://localhost:5001/admin/init	
+
+2. LOGIN
+
+
+3 tài khoản 
+->
+
+URL:    https://localhost:5001/login
+METHOD: POST
+
+BODY:   {
+   	  "username": "admin",  [candidate  || recruitment]
+    	  "password": "123456"
+	}
+
+3. GET DETAIL 
+
+https://localhost:5001/api/user/{id}
+
+4. GET List 
+
+https://localhost:5001/api/user
+
+5. Create User --> ROLE ADMIN
+
+URL: https://localhost:5001/api/user
+METHOD: POST
+BODY: {
+    "username": "user1",
+    "password": "123456",
+    "rePassword": "123456",
+    "firstname": "nguyen",
+    "lastname": "a", 
+    "email":"email@gmail.com",
+    "status":1,
+    "gender": 1                --> 1 nam 2 nữ 3 khác
+    "rolesIds": [12] --> api get role candidate và Recruitment --> https://localhost:5001/api/roles
+}
+
+6. Register User
+
+URL:  https://localhost:5001/api/user
+METHOD: POST
+BODY: {
+    "username": "user1",
+    "password": "123456",
+    "rePassword": "123456",
+    "firstname": "nguyen",
+    "lastname": "a", 
+    "email":"email@gmail.com",
+    "status":1,
+    "gender": 1,                --> 1 nam 2 nữ 3 khác	
+    "rolesIds": [roleId] --> api get role candidate và Recruitment --> https://localhost:5001/api/roles
+}
+
+
+II. 
+
+API UPLOAD FILE 
+
+/api/upload/{PATH}
+   
+PATH = [Recruiment || Candidate || Images || User]
+
+--> upload vào thư mục --> Backend/Resources/{PATH}
+
+      
+   [Display(Name = "Giám đốc")]
+        Manager = 1,
+        Hr = 2,
+        [Display(Name = "Phó phòng")]
+        Deputy = 3,
+        [Display(Name = "Nhân viên")]
+        Staff = 4
+[Display(Name = "Kinh doanh / Bán hàng")]
+        Business = 1,
+        [Display(Name = "Biên / Phiên dịch")]
+        Translate = 2,
+
+        [Display(Name = "Báo chí / Truyền hình")]
+        Media = 3,
+
+        [Display(Name = "Công nghệ phần mềm")]
+        SoftwareTechnology = 4,
+
+        [Display(Name = "Công nghệ phần cứng")]
+        HardWareTechonlogy = 5
+/api/user/profile --> lay dc profile của nó
+/api/user/update 
+/api/user/password --> change password
+/api/user/avatar --> upla
+
+api/posts
+
+public int Id { get; set; }
+
+        [Required(ErrorMessage = "Title is not null")]
+        public string Title { get; set; }
+
+        [Required(ErrorMessage = "Thumbnail is not null")]
+        public string Thumbnail { get; set; }
+
+        [Required(ErrorMessage = "Description is not null")]
+        public string Description { get; set; }
+
+        [Required(ErrorMessage = "Content is not null")]
+        public string Content { get; set; }
+
+        TypePost

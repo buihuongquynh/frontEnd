@@ -1,0 +1,156 @@
+.import{
+    display: flex;
+    color: rgb(104, 142, 255);
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin-bottom: 15px;
+}
+.import .im{
+    display: flex;
+    align-items: center;
+    color: rgb(104, 142, 255);
+    padding: 6px 10px;
+    border:  0px;
+    border-radius: 16px;
+}
+.import .ex{
+    display: flex;
+    align-items: center;
+    color: rgb(104, 142, 255);
+    padding: 6px 16px;
+    border-radius: 16px;
+    border:  0px;
+}
+.import p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+//tab conten
+.tab__Content{
+    margin-bottom: 20px;
+    border-radius: 21px;
+    margin-right: 20px;
+    padding: 20px 10px 60px 10px;
+    position: relative;
+    background-color: rgb(34, 43, 54);
+}
+.tab__Content .iKAtWk{
+    display: flex;
+    background: none;
+}
+
+.tab__Content button{
+   background-color: none;
+}
+.tab__Content .sc-iCfLBT{
+    background: none;
+    border-color: none;
+}
+
+.tab__Content .jqFYkp{
+    background: none;
+    border-color: none;
+}
+.tab__Content .fqvSNm{
+    border-color: none;
+}
+.tab__Content .tabs{
+    border-bottom: 1px solid  rgb(145, 158, 171);
+}
+.custom__List .img img{
+    height: 42px;
+    width: 42px;
+    margin-right: 15px;
+    border-radius: 100%;
+}
+.custom__List .name{
+    display: flex;
+   
+}
+.custom__List table{
+    
+    width: 100%;
+    color: #fff;
+}
+.custom__List .text__img p{
+    margin: 0px;
+    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: rgb(145, 158, 171);
+}
+.custom__List table{
+    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    padding: 16px;
+    
+}
+.custom__List table tr{
+    border-bottom: 1px solid #919EAB;
+}
+.custom__List table td{
+    padding: 5px 0;
+}
+.custom__List table th{
+    padding: 13px 0;
+}
+.custom__List .check{
+  width: 5%;
+}
+.pagination-btn{
+    display: flex;
+    padding-top: 15px ;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    right:30px;
+    border-bottom: none !important;
+    div{cursor: pointer;
+        margin:0 4px ;
+        border: 1px solid rgb(190, 189, 189);
+        // padding: 5px;
+        width:30px ;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+        &.active{
+            background:white;
+            color: black;
+        }
+    }
+    span{ 
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.3s;
+        &:hover{
+            border: 1px solid rgba(255, 255, 255, 0.233);
+            background: rgb(32, 30, 30);
+           
+           
+        }
+    }
+    span.no-active{
+      color: rgb(99, 95, 95);
+    }
+    .arr-r{
+        font-size: 18px;
+        cursor: pointer;
+        padding: 10px;
+         
+    }
+    .arr-l{
+        font-size: 18px;
+        cursor: pointer;
+        padding: 10px;
+    }
+}

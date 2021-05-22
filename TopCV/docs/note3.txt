@@ -1,0 +1,8 @@
+Cài đầy đủ môi trường
+
+--> dotnet restore 
+--> cài dotnet ef tool --> google
+
+--> run: dotnet ef database update
+
+ 

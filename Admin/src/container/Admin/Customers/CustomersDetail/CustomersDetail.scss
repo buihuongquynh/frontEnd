@@ -1,0 +1,117 @@
+.detail .infor__center{
+    display: flex;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.57;
+}
+.detail .tab__Content{
+    background: none;
+   
+}
+.detail .contact{
+    width: 50%;
+    color: white;
+    background-color: #222b36;
+    margin-right: 25px;
+    padding: 26px;
+    border-radius: 16px;
+}
+.detail .Contact__title{
+    font-size: 1.0938rem;
+    font-weight: 600;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(145, 158, 171, 0.24);;
+}
+.detail .chil__flex{
+    display: flex;
+}
+.detail .chil__flex span{
+    width: 50%;
+}
+.detail .item__chil{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(145, 158, 171, 0.24);;
+}
+.detail .gmail{
+display: flex;
+flex-direction: column;
+}
+.detail .gmail a{
+    text-align: center;
+    width: 80%;
+    color: #fff;
+    background-color: rgb(76, 175, 80);
+    border-radius: 16px;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    min-width: 20px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.detail .text {
+    color: rgb(145, 158, 171);
+}
+.detail .reset{
+    display: flex;
+}
+.detail .reset span{
+    margin-right: 5px;
+}
+.detail .setting{
+    margin-top: 15px;
+}
+.detail .combobox{
+    border: .5px solid white;
+    width: 100%;
+    border-radius: 16px;
+    margin: 25px 0px;
+    padding: 10px 5px;
+}
+.detail select{
+    background: none;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.detail option{
+    background: #222B36;
+}
+.tab__Content .a .button{
+    align-items: center;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 142, 255);
+    text-transform: none;
+}
+.tab__Content .a span{
+    margin-right: 5px;
+}
+.detail .ji span{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: rgb(145, 158, 171);
+}
+.tab__Content .a .mn{
+    padding: 10px 16px;
+    margin-top: 30px;
+    background-color: rgb(244, 67, 54);
+}
+.detail .invoices .contact{
+    width: 100%;
+   
+}
